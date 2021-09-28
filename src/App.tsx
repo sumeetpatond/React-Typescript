@@ -3,6 +3,9 @@ import './App.css';
 import Button from './components/Button';
 import Greet from "./components/Greet";
 import GreetParent from "./components/GreetParent";
+import LoggedIn from './components/LoggedIn';
+
+// type css = React.CSSProperties;
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +21,7 @@ function App() {
         <Greet isLoggedIn={false}/>
       </GreetParent>
       <Button  count={count} handleOnClick={handleOnClick}></Button>
+      <LoggedIn></LoggedIn>
     </>
   );
 }
