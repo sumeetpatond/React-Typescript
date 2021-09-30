@@ -5,6 +5,7 @@ import Greet from "./components/Greet";
 import GreetParent from "./components/GreetParent";
 import LoggedIn from './components/LoggedIn';
 import User from './components/User';
+import Counter from './components/Counter'
 
 // type css = React.CSSProperties;
 
@@ -24,6 +25,7 @@ function App() {
       <Button  count={count} handleOnClick={handleOnClick}></Button>
       <LoggedIn></LoggedIn>
       <User/>
+      <Counter/>
     </>
   );
 }
