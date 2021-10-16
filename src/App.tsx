@@ -43,5 +43,6 @@ function App() {
 // component has type React.ComponentType<PropsType>
 // Extract prop types of component using React.ComponentProps<type of MyComponent>
 // for native element like button use React.ComponentProps<'button'>
+// children has type React.ReactNode
 
 export default App;
