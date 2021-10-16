@@ -37,4 +37,6 @@ function App() {
   );
 }
 
+// component has type React.ComponentType<PropsType>
+
 export default App;
