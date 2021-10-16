@@ -10,6 +10,7 @@ import Counter from "./components/Counter";
 import Context1 from "./components/Context1";
 import Ref1 from "./components/Ref1";
 import ClassComp from "./components/ClassComp";
+import Generic from "./components/Generic";
 
 // type css = React.CSSProperties;
 
@@ -33,6 +34,8 @@ function App() {
       <Context1 />
       <Ref1 />
       <ClassComp name="Sumeet" />
+      <Generic items={[1, 2, 3]} />
+      <Generic items={["a", "b", "c"]} />
     </>
   );
 }
