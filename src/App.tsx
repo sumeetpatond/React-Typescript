@@ -41,5 +41,6 @@ function App() {
 }
 
 // component has type React.ComponentType<PropsType>
+// native element like button has type React.ComponentProps<'button'>
 
 export default App;
