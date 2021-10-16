@@ -7,6 +7,7 @@ import GreetParent from "./components/GreetParent";
 import LoggedIn from "./components/LoggedIn";
 import User from "./components/User";
 import Counter from "./components/Counter";
+import Context1 from "./components/Context1";
 
 // type css = React.CSSProperties;
 
@@ -27,6 +28,7 @@ function App() {
       <LoggedIn></LoggedIn>
       <User />
       <Counter />
+      <Context1 />
     </>
   );
 }
