@@ -41,6 +41,7 @@ function App() {
 }
 
 // component has type React.ComponentType<PropsType>
-// native element like button has type React.ComponentProps<'button'>
+// Extract prop types of component using React.ComponentProps<type of MyComponent>
+// for native element like button use React.ComponentProps<'button'>
 
 export default App;
